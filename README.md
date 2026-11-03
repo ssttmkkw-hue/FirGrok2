@@ -2,6 +2,8 @@
 
 一个用 Vite 搭建的简单 React 项目。
 
+线上地址：https://ssttmkkw-hue.github.io/FirGrok2/
+
 ## 运行
 
 ```bash
@@ -17,3 +19,8 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+## 自动部署
+
+推送到 `main` 后，GitHub Actions 会构建并发布到 GitHub Pages。
+仓库 Settings → Pages → Source 需选 **GitHub Actions**。
